@@ -2,6 +2,7 @@ class App
 {
     runApplication()
     {
+        this.greeting = "Starting up";
         let appNaam = "Html/JS site";
         let versieNummer = 0.1;
         let versieDatum = new Date();
@@ -10,8 +11,10 @@ class App
         let distributeur = "Arturo BV";
         let darkmode = false;
 
-        console.log("Hello World\n")
+        console.log(app.greeting);
 
+        console.log("Hello World\n")
+        
         console.log(" Appnaam: ", appNaam, "\n",
                     "Versienummer: ", versieNummer, "\n", 
                     "Versiedatum: ", versieDatum,  "\n",
