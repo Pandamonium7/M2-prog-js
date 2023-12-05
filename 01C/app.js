@@ -10,6 +10,10 @@ class App
         this.copyright = "Arturo Corp";
         this.distributeur = "Arturo BV";
         this.darkmode = false;
+        this.eenBool = true;
+        this.eenString = "String";
+        this.eenInteger = 68686869;
+
 
         console.log(app.greeting);
         console.log("appNaam: "+ app.appNaam);
@@ -19,6 +23,9 @@ class App
         console.log("Copyright: "+ app.copyright);
         console.log("Distributeur: "+ app.distributeur);
         console.log("Darkmode: "+ app.darkmode);
+        console.log("Boolean: "+ app.eenBool);
+        console.log("String: "+ app.eenString);
+        console.log("Integer: "+ app.eenInteger);
     }
 }
 
