@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="1000" height="800"></canvas>
+
+    <script>
+        function createBalls() {
+            const canvas = document.getElementById("myCanvas");
+            const ctx = canvas.getContext("2d");
+
+            for (let i = 0; i < 200; i++) {
+                const x = Math.random() * canvas.width;
+                const y = Math.random() * canvas.height;
+                const radius = 20; // Random radius between 10 and 30
+
+                ctx.beginPath();
+                ctx.arc(x, y, radius, 0, 2 * Math.PI);
+                ctx.fillStyle = `red`;
+                ctx.fill();
+            }
+        }
+
+        createBalls();
+    </script>
+</body>
+</html>
