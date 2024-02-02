@@ -2,23 +2,8 @@ class App
 {
     runApplication()
     {
-        let appNaam = "Html/JS site";
-        let versieNummer = 0.1;
-        let versieDatum = new Date();
-        let auteur = "Arturo Espinoza";
-        let copyright = "Arturo Corp";
-        let distributeur = "Arturo BV";
-        let darkmode = false;
-
-        console.log("Hello World\n")
-
-        console.log(" Appnaam: ", appNaam, "\n",
-                    "Versienummer: ", versieNummer, "\n", 
-                    "Versiedatum: ", versieDatum,  "\n",
-                    "Auteur: ", auteur, "\n",
-                    "Copyright: ",copyright, "\n", 
-                    "Distributeur: ",distributeur, "\n", 
-                    "Darkmode: ",darkmode, "\n");
+        console.log("hello world")
+        //code gaat hier!
     }
 }
 

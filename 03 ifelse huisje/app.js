@@ -6,6 +6,8 @@ class App
 
         let canvas = document.getElementById("canvasId");
         console.log(canvas);
+
+        let randomGetal = Math.random();
        
         let g = canvas.getContext("2d");
         // rood dak
@@ -54,7 +56,12 @@ class App
 
 
         g.beginPath()
-        g.fillStyle = "yellow";
+
+        if(randomGetal > 0.2){
+            g.fillStyle = "Yellow";
+        } else{
+            g.fillStyle = "Black";
+        }
         g.moveTo(400,480);
         g.lineTo(500,500);
         g.lineTo(500,450);
@@ -62,6 +69,7 @@ class App
         g.closePath();
         g.stroke();
         g.fill()
+        
         /*
         g.beginPath()
         g.fillStyle = "white"
@@ -116,6 +124,11 @@ class App
         g.stroke();
         g.fill()
 */
+
+        if(randomGetal > 0.2){
+
+
+        }
     }
 }
 

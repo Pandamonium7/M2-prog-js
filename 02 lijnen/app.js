@@ -12,6 +12,8 @@ class App
         g.fillRect(0,0,canvas.width,canvas.height);     
         g.fillStyle = "black";
         g.fillRect(0,0,10,10);
+
+        // geel dorito
 */
         g.beginPath()
         g.fillStyle = "yellow";

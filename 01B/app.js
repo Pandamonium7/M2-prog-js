@@ -2,6 +2,7 @@ class App
 {
     runApplication()
     {
+        //this functie
         this.greeting = "Starting up";
         let appNaam = "Html/JS site";
         let versieNummer = 0.1;
