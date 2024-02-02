@@ -38,4 +38,4 @@
 #### [Greetings & Goodbyes van binnen en buiten de class aanroepen](https://38075.hosts1.ma-cloud.nl/m2-html-css/progm2/classes/)
 ##### [link naar code github | js](https://github.com/Pandamonium7/M2-prog-js/blob/main/classes/app.js)
 
-[[thankyou.gif]]
+![til](thankyou.gif)
